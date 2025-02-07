@@ -12,7 +12,7 @@
             <div class="max-w-[1248px] mx-auto px-6 w-full min-h-[100vh]">
                 <RouterView/>
             </div>
-            <Footer />
+            <Footer class="backdrop-blur-xs pb-2"/>
         </div>
     </div>
 </template>

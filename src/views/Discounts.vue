@@ -64,7 +64,7 @@ let items = ref([
         <SearchbarComponent/>
       </div>
       <div class="bg-white rounded-2xl p-4 w-full">
-        <h2 class="text-xl font-bold mb-6 text-right">امتیاز</h2>
+        <h2 class="text-xl font-bold mb-6 text-right">تخفیفات</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
           <CardComponent v-for="card in items" :key="card.id" :image="card.image" :title="card.title"/>
         </div>
