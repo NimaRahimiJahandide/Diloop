@@ -3,7 +3,7 @@ import DefaultLayout from '@/layouts/DefaultLayout.vue'
 import HomeView from '@/views/HomeView.vue'
 import Score from '@/views/Score.vue'
 import Discounts from '@/views/Discounts.vue'
-import invite from '@/views/invite.vue'
+import invite from '@/views/Invite.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
