@@ -5,10 +5,12 @@
 }
 
 body {
-  background: #f8fafc;
+  background: #fff;
+  direction: rtl;
 }
 
 
 @theme{
+  --color-primary: #00df9a; 
 }
 
